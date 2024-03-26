@@ -1,0 +1,68 @@
+1___________________________________________________
+Title: (1)SignIn to GitHab with not valid credentials.
+1)Go to https://github.com/
+2)Click "Sign In" button.
+3)Clear your login and password from entering incorrect data.
+4)Click Login Button
+
+Expected result: "Incorrect username or password." message was displayed. 
+User stays on the same page.
+
+2___________________________________________________
+Title: (2)Filling out the free trial form
+1)Go to https://github.com/
+2)Click "Start a free enterprise trial"
+3)Click "Enterprise Server"
+4)Input: Name, Company, Work email, phone number.
+5)Select Country
+6)Selecting the installation type
+7)Ask a Question
+8)Accept terms of use
+9)Allow the use of my personal data by pressing the radio button
+
+Expected result: Completed form to receive a trial period.
+
+3___________________________________________________
+Title: (3)Opening a repository file on GitHub
+1)Opening the GitHub home page
+2)Entering the Input field 'Wdio'
+3)Choosing a javascript programming language
+4)Click on the 'blueimp/wdio'
+5)Open and view document '01-session.js'
+
+Expected result: Opening the 01-session.js file
+
+4___________________________________________________
+Title: (4)Showing text from text fields to the console
+1)Opening the https://v7.webdriver.io/
+2)Go to section Docs
+3)Output "npm install @wdio/cli"
+4)Output "yarn add @wdio/cli"
+5)Output "npx wdio config"
+6)Output "npx wdio run ./wdio.config.js
+7)Output "npx wdio run ./wdio.config.js --spec checkout.e2e.js"
+8)Output "npx wdio run ./wdio.config.js --suite checkoutflow"
+
+Expected result: Outputting text from text fields to the console.
+
+5___________________________________________________
+Title: (5)Сonfirming that text fields are visible on screen
+1)Opening the https://webdriver.io/
+2)Opening the v5 version of the site in a new window: "https://v5.webdriver.io"
+3)Go to section Guide
+4)Opening a section TypeScript Setup.
+5)Is Displayed In Viewport "The minimum TypeScript version is 3.5.1.".
+6)Is Displayed In Viewport "Similarly for Mocha".
+7)Is Displayed In Viewport "And Cucumber".
+8)Is Displayed In Viewport "And your tsconfig.json needs the following".
+9)Is Displayed In Viewport "For sync mode (@wdio/sync), webdriverio types must be replaced with @wdio/sync".
+10)Is Displayed In Viewport "Typed Configuration".
+11)Is Displayed In Viewport "And in your typed configuration file".
+12)Is Displayed In Viewport "Framework types".
+13)Is Displayed In Viewport "Instead of having all type definitions globally available, you can also import only the types that you need, like this".
+14)Is Displayed In Viewport "With TypeScript, it's easy to extend WebdriverIO interfaces. Add types to your custom commands like this".
+15)Is Displayed In Viewport "Sync mode".
+16)Is Displayed In Viewport "Async mode".
+
+Expected result: Print to the console to confirm that the specified page elements are visible on the screen.
+
